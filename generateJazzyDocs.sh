@@ -6,7 +6,7 @@ jazzy \
   --clean \
   --author AlbertArroyo \
   --author_url http://www.albertarroyo.com \
-  --github_url https://github.com/jimmyaat10 \
+  --github_url https://github.com/jimmyaat10/AATTools \
   --xcodebuild-arguments -scheme,AATTools \
   --module AATTools \
   --framework-root . \
