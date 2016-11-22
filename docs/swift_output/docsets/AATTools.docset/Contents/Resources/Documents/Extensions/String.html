@@ -1,0 +1,2776 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>String Extension Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Extension/String" class="dashAnchor"></a>
+    <a title="String Extension Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">AATTools Docs</a> (100% documented)</p>
+        <p class="header-right"><a href="https://github.com/jimmyaat10"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">AATTools Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        String Extension Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Double.html">Double</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Subscripts.html">Subscripts</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Subscripts.html#/s:iE8AATToolsSS9subscriptFGVs11ClosedRangeSi_SS">subscript(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Subscripts.html#/s:iE8AATToolsSS9subscriptFGVs5RangeSi_SS">subscript(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Subscripts.html#/s:iE8AATToolsSS9subscriptFSiVs9Character">subscript(_:)</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>String</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">struct</span> <span class="kt">String</span></code></pre>
+
+                </div>
+              </div>
+            
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vE8AATToolsSS6lengthSi"></a>
+                    <a name="//apple_ref/swift/Property/length" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vE8AATToolsSS6lengthSi">length</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Convenience property, Int for the number of characters of self</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">length</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vE8AATToolsSS5charsGSaSS_"></a>
+                    <a name="//apple_ref/swift/Property/chars" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vE8AATToolsSS5charsGSaSS_">chars</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Convenience property, Array of the individual substrings composing self</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">chars</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vE8AATToolsSS7charSetGVs3SetSS_"></a>
+                    <a name="//apple_ref/swift/Property/charSet" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vE8AATToolsSS7charSetGVs3SetSS_">charSet</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Convenience property, Set<String> of the unique characters in self</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">charSet</span><span class="p">:</span> <span class="kt">Set</span><span class="o">&lt;</span><span class="kt">String</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vE8AATToolsSS14firstCharacterGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/firstCharacter" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vE8AATToolsSS14firstCharacterGSqSS_">firstCharacter</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Convenience property, String with first character of self</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">firstCharacter</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vE8AATToolsSS13lastCharacterGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/lastCharacter" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vE8AATToolsSS13lastCharacterGSqSS_">lastCharacter</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Convenience property, String with last character of self</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">lastCharacter</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vE8AATToolsSS7isEmptySb"></a>
+                    <a name="//apple_ref/swift/Property/isEmpty" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vE8AATToolsSS7isEmptySb">isEmpty</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Convenience property, Bool to know if the string is empty (has characters)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isEmpty</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vE8AATToolsSS12isEmptyFieldSb"></a>
+                    <a name="//apple_ref/swift/Property/isEmptyField" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vE8AATToolsSS12isEmptyFieldSb">isEmptyField</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Convenience property, Bool to know if the field is empty (has characters)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isEmptyField</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vE8AATToolsSS28stringByDecodingHTMLEntitiesSS"></a>
+                    <a name="//apple_ref/swift/Property/stringByDecodingHTMLEntities" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vE8AATToolsSS28stringByDecodingHTMLEntitiesSS">stringByDecodingHTMLEntities</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Computed property that returns a new string made by replacing
+all HTML character entity references with the corresponding character</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">stringByDecodingHTMLEntities</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vE8AATToolsSS6base64SS"></a>
+                    <a name="//apple_ref/swift/Property/base64" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vE8AATToolsSS6base64SS">base64</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Convenience property, String with base64 representation</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">base64</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vE8AATToolsSS12countofWordsSi"></a>
+                    <a name="//apple_ref/swift/Property/countofWords" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vE8AATToolsSS12countofWordsSi">countofWords</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Convenience property, count of words</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">countofWords</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vE8AATToolsSS17countofParagraphsSi"></a>
+                    <a name="//apple_ref/swift/Property/countofParagraphs" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vE8AATToolsSS17countofParagraphsSi">countofParagraphs</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Convenience property, count of paragraphs</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">countofParagraphs</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vE8AATToolsSS11extractURLsGSaV10Foundation3URL_"></a>
+                    <a name="//apple_ref/swift/Property/extractURLs" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vE8AATToolsSS11extractURLsGSaV10Foundation3URL_">extractURLs</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Convenience property, extracts URLS from self and return [URL]</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">extractURLs</span><span class="p">:</span> <span class="p">[</span><span class="kt">URL</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vE8AATToolsSS11html2AttStrGSqCSo18NSAttributedString_"></a>
+                    <a name="//apple_ref/swift/Property/html2AttStr" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vE8AATToolsSS11html2AttStrGSqCSo18NSAttributedString_">html2AttStr</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Convenience property, converts html to NSAttributedString</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">html2AttStr</span><span class="p">:</span> <span class="kt">NSAttributedString</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vE8AATToolsSS10toNSStringCSo8NSString"></a>
+                    <a name="//apple_ref/swift/Property/toNSString" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vE8AATToolsSS10toNSStringCSo8NSString">toNSString</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Convenience property, converts self to NSString</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">toNSString</span><span class="p">:</span> <span class="kt">NSString</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS16removedFirstCharFT_SS"></a>
+                    <a name="//apple_ref/swift/Method/removedFirstChar()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS16removedFirstCharFT_SS">removedFirstChar()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to remove the first character of self
+- Returns: string with first character removed</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">removedFirstChar</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>string with first character removed</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS15removedLastCharFT_SS"></a>
+                    <a name="//apple_ref/swift/Method/removedLastChar()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS15removedLastCharFT_SS">removedLastChar()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to remove the last character of self
+- Returns: string with last character removed</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">removedLastChar</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>string with last character removed</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS7trimmedFT_SS"></a>
+                    <a name="//apple_ref/swift/Method/trimmed()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS7trimmedFT_SS">trimmed()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to remove whitespaces from the start and end of self
+- Returns: string with no whitespaces</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">trimmed</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>string with no whitespaces</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS8reversedFT_SS"></a>
+                    <a name="//apple_ref/swift/Method/reversed()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS8reversedFT_SS">reversed()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to reverse self
+- Returns: string reversed</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">reversed</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>string reversed</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS8replacedFT6targetSS10withStringSS_SS"></a>
+                    <a name="//apple_ref/swift/Method/replaced(target:withString:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS8replacedFT6targetSS10withStringSS_SS">replaced(target:withString:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to replace <code>t</code> parameter with string <code>s</code> parameter
+- Parameters:
+    - target: The target to replace
+    - withString: The string to replace
+- Returns: string replaced</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">replaced</span><span class="p">(</span><span class="n">target</span> <span class="nv">t</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">withString</span> <span class="nv">s</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>target</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The target to replace</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>withString</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The string to replace</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>string replaced</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS8splittedFT9separatorSS_GSaSS_"></a>
+                    <a name="//apple_ref/swift/Method/splitted(separator:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS8splittedFT9separatorSS_GSaSS_">splitted(separator:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to split string using a separator string <code>s</code> parameter
+- Parameters:
+    - separator: The separator string
+- Returns: [String]</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">splitted</span><span class="p">(</span><span class="n">separator</span> <span class="nv">s</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">String</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>separator</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The separator string</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>[String]</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS8splittedFT9separatorV10Foundation12CharacterSet_GSaSS_"></a>
+                    <a name="//apple_ref/swift/Method/splitted(separator:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS8splittedFT9separatorV10Foundation12CharacterSet_GSaSS_">splitted(separator:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to split string using a separator set <code>characters</code> parameter with delimiters
+- Parameters:
+    - separator: The separator CharacterSet
+- Returns: [String]</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">splitted</span><span class="p">(</span><span class="n">separator</span> <span class="nv">characters</span><span class="p">:</span> <span class="kt">CharacterSet</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">String</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>separator</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The separator CharacterSet</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>[String]</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS5countFT9substringSS_Si"></a>
+                    <a name="//apple_ref/swift/Method/count(substring:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS5countFT9substringSS_Si">count(substring:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to count number of instances of the <code>substring</code> parameter inside self
+- Parameters:
+    - substring: The substring to count
+- Returns: Int with number of ocurrences</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">count</span><span class="p">(</span><span class="n">substring</span> <span class="nv">s</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>substring</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The substring to count</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Int with number of ocurrences</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS21uppercasedFirstLetterFT_SS"></a>
+                    <a name="//apple_ref/swift/Method/uppercasedFirstLetter()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS21uppercasedFirstLetterFT_SS">uppercasedFirstLetter()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to uppercase the first letter
+- Returns: string with first letter capitalized</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">uppercasedFirstLetter</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>string with first letter capitalized</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS16uppercasedPrefixFT21firstNumberCharactersSi_SS"></a>
+                    <a name="//apple_ref/swift/Method/uppercasedPrefix(firstNumberCharacters:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS16uppercasedPrefixFT21firstNumberCharactersSi_SS">uppercasedPrefix(firstNumberCharacters:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to uppercases first &lsquo;count&rsquo; characters of String
+- Parameters:
+    - firstNumberCharacters: the first count characters
+- Returns: String modified</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">uppercasedPrefix</span><span class="p">(</span><span class="n">firstNumberCharacters</span> <span class="nv">count</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>firstNumberCharacters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the first count characters</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>String modified</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS16uppercasedSuffixFT20lastNumberCharactersSi_SS"></a>
+                    <a name="//apple_ref/swift/Method/uppercasedSuffix(lastNumberCharacters:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS16uppercasedSuffixFT20lastNumberCharactersSi_SS">uppercasedSuffix(lastNumberCharacters:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to uppercases last &lsquo;count&rsquo; characters of self
+- Parameters:
+    - lastNumberCharacters: the last count characters
+- Returns: String modified</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">uppercasedSuffix</span><span class="p">(</span><span class="n">lastNumberCharacters</span> <span class="nv">count</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>lastNumberCharacters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the last count characters</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>String modified</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS10uppercasedFT5rangeGVs14CountableRangeSi__SS"></a>
+                    <a name="//apple_ref/swift/Method/uppercased(range:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS10uppercasedFT5rangeGVs14CountableRangeSi__SS">uppercased(range:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to uppercases string in range &lsquo;range&rsquo;
+- Parameters:
+    - range: CountableRange<Int> to uppercase
+- Returns: String modified</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">uppercased</span><span class="p">(</span><span class="n">range</span> <span class="nv">r</span><span class="p">:</span> <span class="kt">CountableRange</span><span class="o">&lt;</span><span class="kt">Int</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>range</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>CountableRange<Int> to uppercase</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>String modified</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS21lowercasedFirstLetterFT_SS"></a>
+                    <a name="//apple_ref/swift/Method/lowercasedFirstLetter()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS21lowercasedFirstLetterFT_SS">lowercasedFirstLetter()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to lowercase the first letter
+- Returns: string with first letter lowercased</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">lowercasedFirstLetter</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>string with first letter lowercased</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS16lowercasedPrefixFT21firstNumberCharactersSi_SS"></a>
+                    <a name="//apple_ref/swift/Method/lowercasedPrefix(firstNumberCharacters:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS16lowercasedPrefixFT21firstNumberCharactersSi_SS">lowercasedPrefix(firstNumberCharacters:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to lowercase first &lsquo;count&rsquo; characters of String
+- Parameters:
+    - firstNumberCharacters: the first count characters
+- Returns: String modified</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">lowercasedPrefix</span><span class="p">(</span><span class="n">firstNumberCharacters</span> <span class="nv">count</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>firstNumberCharacters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the first count characters</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>String modified</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS16lowercasedSuffixFT20lastNumberCharactersSi_SS"></a>
+                    <a name="//apple_ref/swift/Method/lowercasedSuffix(lastNumberCharacters:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS16lowercasedSuffixFT20lastNumberCharactersSi_SS">lowercasedSuffix(lastNumberCharacters:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to lowercase last &lsquo;count&rsquo; characters of self
+- Parameters:
+    - lastNumberCharacters: the last count characters
+- Returns: String modified</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">lowercasedSuffix</span><span class="p">(</span><span class="n">lastNumberCharacters</span> <span class="nv">count</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>lastNumberCharacters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the last count characters</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>String modified</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS10lowercasedFT5rangeGVs14CountableRangeSi__SS"></a>
+                    <a name="//apple_ref/swift/Method/lowercased(range:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS10lowercasedFT5rangeGVs14CountableRangeSi__SS">lowercased(range:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to lowercase string in range &lsquo;range&rsquo;
+- Parameters:
+    - range: CountableRange<Int> to lowercase
+- Returns: String modified</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">lowercased</span><span class="p">(</span><span class="n">range</span> <span class="nv">r</span><span class="p">:</span> <span class="kt">CountableRange</span><span class="o">&lt;</span><span class="kt">Int</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>range</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>CountableRange<Int> to lowercase</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>String modified</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS10getIndexOfFT9characterVs9Character_GSqSi_"></a>
+                    <a name="//apple_ref/swift/Method/getIndexOf(character:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS10getIndexOfFT9characterVs9Character_GSqSi_">getIndexOf(character:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to get the first index of the occurency of the character in self
+- Parameters:
+    - character: Character to search
+- Returns: Int? with the position</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getIndexOf</span><span class="p">(</span><span class="n">character</span> <span class="nv">char</span><span class="p">:</span> <span class="kt">Character</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>character</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Character to search</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Int? with the position</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS6heightFT8maxWidthV12CoreGraphics7CGFloat4fontCSo6UIFont13lineBreakModeGSqOSC15NSLineBreakMode__S1_"></a>
+                    <a name="//apple_ref/swift/Method/height(maxWidth:font:lineBreakMode:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS6heightFT8maxWidthV12CoreGraphics7CGFloat4fontCSo6UIFont13lineBreakModeGSqOSC15NSLineBreakMode__S1_">height(maxWidth:font:lineBreakMode:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to get the height of rendered self
+- Parameters:
+    - maxWidth: CGFloat
+    - font: UIFont
+    - lineBreakMode: NSLineBreakMode
+- Returns: CGFloat</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">height</span><span class="p">(</span><span class="n">maxWidth</span> <span class="nv">width</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">font</span><span class="p">:</span> <span class="kt">UIFont</span><span class="p">,</span> <span class="nv">lineBreakMode</span><span class="p">:</span> <span class="kt">NSLineBreakMode</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>maxWidth</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>CGFloat</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>font</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UIFont</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>lineBreakMode</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>NSLineBreakMode</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>CGFloat</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS15addToPasteboardFT_T_"></a>
+                    <a name="//apple_ref/swift/Method/addToPasteboard()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS15addToPasteboardFT_T_">addToPasteboard()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to copy string to pasteboard</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addToPasteboard</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS5indexFT4fromSi_VVSS13CharacterView5Index"></a>
+                    <a name="//apple_ref/swift/Method/index(from:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS5indexFT4fromSi_VVSS13CharacterView5Index">index(from:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Wrapper for index with startIndex offsetBy <code>from</code> parameter
+- Parameters:
+    - from: Int
+- Returns: Index</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">index</span><span class="p">(</span><span class="nv">from</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Index</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>from</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Int</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Index</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS9substringFT4fromSi_SS"></a>
+                    <a name="//apple_ref/swift/Method/substring(from:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS9substringFT4fromSi_SS">substring(from:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Wrapper substring <code>from</code> parameter
+- Parameters:
+    - from: Int
+- Returns: String</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">substring</span><span class="p">(</span><span class="nv">from</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>from</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Int</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>String</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS9substringFT2toSi_SS"></a>
+                    <a name="//apple_ref/swift/Method/substring(to:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS9substringFT2toSi_SS">substring(to:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Wrapper substring <code>to</code> parameter
+- Parameters:
+    - to: Int
+- Returns: String</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">substring</span><span class="p">(</span><span class="nv">to</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>to</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Int</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>String</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS9substringFT4withGVs5RangeSi__SS"></a>
+                    <a name="//apple_ref/swift/Method/substring(with:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS9substringFT4withGVs5RangeSi__SS">substring(with:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Wrapper substring with range
+- Parameters:
+    - with: Range<Int>
+- Returns: String</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">substring</span><span class="p">(</span><span class="n">with</span> <span class="nv">r</span><span class="p">:</span> <span class="kt">Range</span><span class="o">&lt;</span><span class="kt">Int</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>with</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Range<Int></p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>String</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS9localizedFT6bundleCSo6Bundle_SS"></a>
+                    <a name="//apple_ref/swift/Method/localized(bundle:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS9localizedFT6bundleCSo6Bundle_SS">localized(bundle:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to localize self. 
+Adding a bundle parameter with default value provide the possibility to test the method
+mocking the correct bundle
+- Parameters:
+    - bundle: Bundle, by default Bundle.main
+- Returns: Localized string</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">localized</span><span class="p">(</span><span class="n">bundle</span> <span class="nv">localizationBundle</span> <span class="p">:</span> <span class="kt">Bundle</span> <span class="o">=</span> <span class="kt">Bundle</span><span class="o">.</span><span class="n">main</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>bundle</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Bundle, by default Bundle.main</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Localized string</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS9encodeURLFT_GSqV10Foundation3URL_"></a>
+                    <a name="//apple_ref/swift/Method/encodeURL()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS9encodeURLFT_GSqV10Foundation3URL_">encodeURL()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to encode the self string url
+- Returns: URL? with encoded URL</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">encodeURL</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">URL</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>URL? with encoded URL</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS27addedPercentToEncodedForUrlFT_GSqSS_"></a>
+                    <a name="//apple_ref/swift/Method/addedPercentToEncodedForUrl()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS27addedPercentToEncodedForUrlFT_GSqSS_">addedPercentToEncodedForUrl()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to percent escapes values to be added to a URL query as specified in RFC 3986
+This percent-escapes all characters besides the alphanumeric character set and <q>-</q>, <q>.</q>, <q>_</q>, and <q>~</q>.
+<a href="http://www.ietf.org/rfc/rfc3986.txt">http://www.ietf.org/rfc/rfc3986.txt</a>
+- Returns: String? with percent-escaped string</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">addedPercentToEncodedForUrl</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>String? with percent-escaped string</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS7nsRangeFT4fromGVs5RangeVVSS13CharacterView5Index__VSC8_NSRange"></a>
+                    <a name="//apple_ref/swift/Method/nsRange(from:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS7nsRangeFT4fromGVs5RangeVVSS13CharacterView5Index__VSC8_NSRange">nsRange(from:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to return NSRange from <code>range</code> parameter
+- Parameters:
+    - from: Range<String.Index>
+- Returns: NSRange</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">nsRange</span><span class="p">(</span><span class="n">from</span> <span class="nv">range</span><span class="p">:</span> <span class="kt">Range</span><span class="o">&lt;</span><span class="kt">String</span><span class="o">.</span><span class="kt">Index</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">NSRange</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>from</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Range<String.Index></p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>NSRange</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS5rangeFT4fromVSC8_NSRange_GSqGVs5RangeVVSS13CharacterView5Index__"></a>
+                    <a name="//apple_ref/swift/Method/range(from:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS5rangeFT4fromVSC8_NSRange_GSqGVs5RangeVVSS13CharacterView5Index__">range(from:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to return Range from <code>nsRange</code> parameter
+- Parameters:
+    - from: NSRange
+- Returns: Range?</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">range</span><span class="p">(</span><span class="n">from</span> <span class="nv">nsRange</span><span class="p">:</span> <span class="kt">NSRange</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Range</span><span class="o">&lt;</span><span class="kt">String</span><span class="o">.</span><span class="kt">Index</span><span class="o">&gt;</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>from</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>NSRange</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Range?</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS7isEmailFT_Sb"></a>
+                    <a name="//apple_ref/swift/Method/isEmail()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS7isEmailFT_Sb">isEmail()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to know if self is an email
+- Returns: Bool with condition</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">isEmail</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Bool with condition</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS8isNumberFT_Sb"></a>
+                    <a name="//apple_ref/swift/Method/isNumber()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS8isNumberFT_Sb">isNumber()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to know if self is numeric
+- Returns: Bool with condition</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">isNumber</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Bool with condition</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS17containsSensitiveFT6stringSS_Sb"></a>
+                    <a name="//apple_ref/swift/Method/containsSensitive(string:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS17containsSensitiveFT6stringSS_Sb">containsSensitive(string:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to know if self contains given sensitive <code>s</code> parameter
+- Parameters:
+    - string: String to search
+- Returns: Bool with condition</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">containsSensitive</span><span class="p">(</span><span class="n">string</span> <span class="nv">s</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>string</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>String to search</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Bool with condition</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS20containsNotSensitiveFT6stringSS_Sb"></a>
+                    <a name="//apple_ref/swift/Method/containsNotSensitive(string:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS20containsNotSensitiveFT6stringSS_Sb">containsNotSensitive(string:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to know if self contains given not sensitive <code>s</code> parameter
+- Parameters:
+    - string: String to search
+- Returns: Bool with condition</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">containsNotSensitive</span><span class="p">(</span><span class="n">string</span> <span class="nv">s</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>string</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>String to search</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Bool with condition</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS21matchesForRegexInTextFT5regexGSQSS__GSaSS_"></a>
+                    <a name="//apple_ref/swift/Method/matchesForRegexInText(regex:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS21matchesForRegexInTextFT5regexGSQSS__GSaSS_">matchesForRegexInText(regex:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to find matches of regular expression in string
+- Parameters:
+    - regex: String with regex
+- Returns: [String] with matches</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">matchesForRegexInText</span><span class="p">(</span><span class="n">regex</span> <span class="nv">reg</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">String</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>regex</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>String with regex</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>[String] with matches</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvE8AATToolsSS23numberFormatterInstanceCSo15NumberFormatter"></a>
+                    <a name="//apple_ref/swift/Variable/numberFormatterInstance" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvE8AATToolsSS23numberFormatterInstanceCSo15NumberFormatter">numberFormatterInstance</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>More efficient not to create a number formatter every time if not modify properties</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">numberFormatterInstance</span> <span class="o">=</span> <span class="kt">NumberFormatter</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS8toDoubleFT_GSqSd_"></a>
+                    <a name="//apple_ref/swift/Method/toDouble()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS8toDoubleFT_GSqSd_">toDouble()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to format a string to double
+- Returns: Double?</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">toDouble</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Double</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Double?</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS5toIntFT_GSqSi_"></a>
+                    <a name="//apple_ref/swift/Method/toInt()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS5toIntFT_GSqSi_">toInt()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to format a string to int
+- Returns: Int?</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">toInt</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Int?</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS7toFloatFT_GSqSf_"></a>
+                    <a name="//apple_ref/swift/Method/toFloat()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS7toFloatFT_GSqSf_">toFloat()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to format a string to float
+- Returns: Float?</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">toFloat</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Float</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Float?</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS6toBoolFT_GSqSb_"></a>
+                    <a name="//apple_ref/swift/Method/toBool()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS6toBoolFT_GSqSb_">toBool()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to format a string to bool
+- Returns: Bool?</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">toBool</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Bool?</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS12formatNumberFT8decimalsSi_GSqSS_"></a>
+                    <a name="//apple_ref/swift/Method/formatNumber(decimals:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS12formatNumberFT8decimalsSi_GSqSS_">formatNumber(decimals:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to format a string to double with given <code>d</code> parameter
+- Parameters:
+    - decimals: Int
+- Returns: String?</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">formatNumber</span><span class="p">(</span><span class="n">decimals</span> <span class="nv">d</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>decimals</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Int</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>String?</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS18removedWitheSpacesFT_SS"></a>
+                    <a name="//apple_ref/swift/Method/removedWitheSpaces()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS18removedWitheSpacesFT_SS">removedWitheSpaces()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to remove white spaces
+- Returns: String</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">removedWitheSpaces</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>String</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS22formattedAccountNumberFT_SS"></a>
+                    <a name="//apple_ref/swift/Method/formattedAccountNumber()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS22formattedAccountNumberFT_SS">formattedAccountNumber()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to format a string to an account number
+Verifications are not in this scope
+- Returns: String formatted</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">formattedAccountNumber</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>String formatted</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS19formattedIbanNumberFT_SS"></a>
+                    <a name="//apple_ref/swift/Method/formattedIbanNumber()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS19formattedIbanNumberFT_SS">formattedIbanNumber()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to format a string to an iban number
+Verifications are not in this scope
+- Returns: String formatted</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">formattedIbanNumber</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>String formatted</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS20removedTrailingZerosFT8decimalsSi_SS"></a>
+                    <a name="//apple_ref/swift/Method/removedTrailingZeros(decimals:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS20removedTrailingZerosFT8decimalsSi_SS">removedTrailingZeros(decimals:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to remove trailing zeros to a given fraction digits <code>d</code> parameter
+Verifications are not in this scope
+- Parameters:
+    - decimals: Int
+- Returns: String formatted</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">removedTrailingZeros</span><span class="p">(</span><span class="n">decimals</span> <span class="nv">d</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>decimals</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Int</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>String formatted</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS4boldFT_CSo18NSAttributedString"></a>
+                    <a name="//apple_ref/swift/Method/bold()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS4boldFT_CSo18NSAttributedString">bold()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to bold self
+- Returns: NSAttributedString</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">bold</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSAttributedString</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>NSAttributedString</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS9underlineFT_CSo18NSAttributedString"></a>
+                    <a name="//apple_ref/swift/Method/underline()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS9underlineFT_CSo18NSAttributedString">underline()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to underline self
+- Returns: NSAttributedString</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">underline</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSAttributedString</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>NSAttributedString</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS6italicFT_CSo18NSAttributedString"></a>
+                    <a name="//apple_ref/swift/Method/italic()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS6italicFT_CSo18NSAttributedString">italic()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to italic self
+- Returns: NSAttributedString</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">italic</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSAttributedString</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>NSAttributedString</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS5colorFCSo7UIColorCSo18NSAttributedString"></a>
+                    <a name="//apple_ref/swift/Method/color(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS5colorFCSo7UIColorCSo18NSAttributedString">color(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to color self
+- Parameters:
+    - _ : UIColor
+- Returns: NSAttributedString</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">color</span><span class="p">(</span><span class="n">_</span> <span class="nv">color</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">NSAttributedString</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>_</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>: UIColor</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>NSAttributedString</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS5colorFT9substringSS5colorCSo7UIColor_CSo25NSMutableAttributedString"></a>
+                    <a name="//apple_ref/swift/Method/color(substring:color:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS5colorFT9substringSS5colorCSo7UIColor_CSo25NSMutableAttributedString">color(substring:color:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to color substring of self
+- Parameters:
+    - substring : String to apply the color in self
+    - color : UIColor
+- Returns: NSAttributedString</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">color</span><span class="p">(</span><span class="n">substring</span> <span class="nv">s</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">color</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">NSMutableAttributedString</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>substring</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>String to apply the color in self</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>color</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UIColor</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>NSAttributedString</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS13containsEmojiFT_Sb"></a>
+                    <a name="//apple_ref/swift/Method/containsEmoji()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS13containsEmojiFT_Sb">containsEmoji()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to check if String contains Emoji
+- Returns: Bool</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">containsEmoji</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Bool</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8AATToolsSS18decodeHTMLEntitiesFT_T13decodedStringSS18replacementOffsetsGSaGVs5RangeVVSS13CharacterView5Index___"></a>
+                    <a name="//apple_ref/swift/Method/decodeHTMLEntities()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8AATToolsSS18decodeHTMLEntitiesFT_T13decodedStringSS18replacementOffsetsGSaGVs5RangeVVSS13CharacterView5Index___">decodeHTMLEntities()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method that returns a tuple containing the string made by replacing in the
+<code>String</code> all HTML character entity references with the corresponding
+character. Also returned is an array of offset information describing
+the location and length offsets for each replacement. This allows
+for the correct adjust any attributes that may be associated with
+with substrings within the <code>String</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">decodeHTMLEntities</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="p">(</span><span class="nv">decodedString</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">replacementOffsets</span><span class="p">:</span> <span class="p">[</span><span class="kt">Range</span><span class="o">&lt;</span><span class="kt">String</span><span class="o">.</span><span class="kt">Index</span><span class="o">&gt;</span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2016 <a class="link" href="http://www.albertarroyo.com" target="_blank" rel="external">AlbertArroyo</a>. All rights reserved. (Last updated: 2016-11-22)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

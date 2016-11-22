@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  AATTools
+
+  Created by Albert Arroyo on 18/11/16.
+  Copyright © 2016 AlbertArroyo. All rights reserved.
+*/
+
+"lng.generic.hello" = "Hola";

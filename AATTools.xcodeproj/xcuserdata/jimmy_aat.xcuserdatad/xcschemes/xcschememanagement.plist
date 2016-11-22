@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>AATToolsTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>922564001DDF0E0B00D12FFE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9225641A1DDF2C8100D12FFE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
