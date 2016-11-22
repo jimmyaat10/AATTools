@@ -14,7 +14,7 @@ Feel free to comment / add functionalities ;)
 
 There's a script generateJazzyDocs.sh to generate the Doc with Jazzy. @see [Jazzy](https://github.com/realm/jazzy)
 
-You can see the [doc](https://github.com/jimmyaat10/AATTools/blob/master/docs/swift_output/index.html) generated
+You can see the [doc](http://www.albertarroyo.com/ios/swift/AATTools/docs/swift_output/index.html) generated. Included in the repository in doc folder.
 
 ##Introduction
 
