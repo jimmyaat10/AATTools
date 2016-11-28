@@ -7,3 +7,4 @@
 */
 
 "lng.generic.hello" = "Hola";
+"lng.views.label.title" = "(CA) UILabel+Extra";

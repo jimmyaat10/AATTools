@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		922564051DDF0E0B00D12FFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922564041DDF0E0B00D12FFE /* AppDelegate.swift */; };
-		922564071DDF0E0B00D12FFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922564061DDF0E0B00D12FFE /* ViewController.swift */; };
+		922564071DDF0E0B00D12FFE /* LabelExtraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922564061DDF0E0B00D12FFE /* LabelExtraViewController.swift */; };
 		9225640A1DDF0E0B00D12FFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 922564081DDF0E0B00D12FFE /* Main.storyboard */; };
 		9225640C1DDF0E0B00D12FFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9225640B1DDF0E0B00D12FFE /* Assets.xcassets */; };
 		9225640F1DDF0E0B00D12FFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9225640D1DDF0E0B00D12FFE /* LaunchScreen.storyboard */; };
@@ -17,6 +17,8 @@
 		9225642D1DDF43BD00D12FFE /* StringTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9225642C1DDF43BD00D12FFE /* StringTest.swift */; };
 		922564361DDF5E9900D12FFE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 922564391DDF5E9900D12FFE /* Localizable.strings */; };
 		922564371DDF5E9900D12FFE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 922564391DDF5E9900D12FFE /* Localizable.strings */; };
+		9230A2DB1DEC356A002C68E9 /* UILabel+Extra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9230A2DA1DEC356A002C68E9 /* UILabel+Extra.swift */; };
+		9230A2DC1DEC356A002C68E9 /* UILabel+Extra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9230A2DA1DEC356A002C68E9 /* UILabel+Extra.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +34,7 @@
 /* Begin PBXFileReference section */
 		922564011DDF0E0B00D12FFE /* AATTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AATTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		922564041DDF0E0B00D12FFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		922564061DDF0E0B00D12FFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		922564061DDF0E0B00D12FFE /* LabelExtraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelExtraViewController.swift; sourceTree = "<group>"; };
 		922564091DDF0E0B00D12FFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9225640B1DDF0E0B00D12FFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9225640E1DDF0E0B00D12FFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 		9225643A1DDF5E9C00D12FFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9225643B1DDF5E9E00D12FFE /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9225643C1DDF5E9F00D12FFE /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9230A2DA1DEC356A002C68E9 /* UILabel+Extra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extra.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +100,7 @@
 				9225642E1DDF5A0B00D12FFE /* Localisable */,
 				922564081DDF0E0B00D12FFE /* Main.storyboard */,
 				922564161DDF0E5B00D12FFE /* Tools */,
-				922564061DDF0E0B00D12FFE /* ViewController.swift */,
+				922564061DDF0E0B00D12FFE /* LabelExtraViewController.swift */,
 			);
 			path = AATTools;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				922564261DDF2CFA00D12FFE /* String+Extra.swift */,
+				9230A2DA1DEC356A002C68E9 /* UILabel+Extra.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -258,9 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				922564071DDF0E0B00D12FFE /* ViewController.swift in Sources */,
+				922564071DDF0E0B00D12FFE /* LabelExtraViewController.swift in Sources */,
 				922564051DDF0E0B00D12FFE /* AppDelegate.swift in Sources */,
 				922564271DDF2CFA00D12FFE /* String+Extra.swift in Sources */,
+				9230A2DB1DEC356A002C68E9 /* UILabel+Extra.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9230A2DC1DEC356A002C68E9 /* UILabel+Extra.swift in Sources */,
 				9225642D1DDF43BD00D12FFE /* StringTest.swift in Sources */,
 				922564281DDF2CFA00D12FFE /* String+Extra.swift in Sources */,
 			);
