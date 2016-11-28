@@ -17,14 +17,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        let currentLocale = NSLocale.current.languageCode
-        let sut = "lng.generic.hello".localized()
-        if currentLocale == "en" {
-            if sut == "Hello" {
-                print("ok")
-            }
-        }
-        
         return true
     }
 
