@@ -116,6 +116,21 @@ public extension String {
         }
     }
     
+    /// Convenience property, returns localized string
+    public var localized: String? {
+        return self.localized()
+    }
+    
+    /// Convenience property, returns pathExtension from string url
+    public var pathExtension: String? {
+        return NSURL(fileURLWithPath: self).pathExtension
+    }
+    
+    /// Convenience property, returns lastPathComponent from string url
+    public var lastPathComponent: String? {
+        return NSURL(fileURLWithPath: self).lastPathComponent
+    }
+    
     /// Convenience property, converts self to NSString
     public var toNSString: NSString { get { return self as NSString } }
 }

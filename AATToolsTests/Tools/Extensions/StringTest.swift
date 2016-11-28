@@ -104,6 +104,18 @@ class StringTest: XCTestCase {
         XCTAssertEqual(sutAttributed.isKind(of: NSAttributedString.self), true, "sut html2AttStr should be NSAttributedString")
     }
     
+    func testPathExtension() {
+        let sut = "http://www.albertarroyo.com/ios/swift/AATTools/docs/swift_output/index.html"
+        let sutPathExtension = sut.pathExtension!
+        XCTAssertEqual(sutPathExtension, "html", "sutPathExtension should be html")
+    }
+    
+    func testLastPathComponent() {
+        let sut = "http://www.albertarroyo.com/ios/swift/AATTools/docs/swift_output/index.html"
+        let sutLastPathComponent = sut.lastPathComponent!
+        XCTAssertEqual(sutLastPathComponent, "index.html", "sutPathExtension should be index.html")
+    }
+    
     func testToNSString() {
         let sut = "abca"
         XCTAssertTrue(sut.toNSString.isKind(of: NSString.self))
@@ -403,9 +415,23 @@ class StringTest: XCTestCase {
     // MARK: Tracting Numbers / Conversions / Utils for Banking Apps
     
     func testToDouble() {
+        let formatter = NumberFormatter()
+        formatter.numberStyle = .decimal
+        formatter.locale = Locale(identifier: Locale.current.identifier)
+        
         let sut = "5.42"
-        let sutDouble = sut.toDouble()
-        XCTAssertEqual(sutDouble == 5.42, true, "sutDouble should be 5.42")
+        
+        if let sutDoubleExpected = formatter.number(from: sut) {
+            let sutDouble = sut.toDouble()
+            XCTAssertEqual(sutDouble, Double(sutDoubleExpected), "sutDouble should be sutDoubleExpected")
+        } else {
+            let sut2 = "5,42"
+            if let sut2DoubleExpected = formatter.number(from: sut2) {
+                let sut2Double = sut2.toDouble()
+                XCTAssertEqual(sut2Double, Double(sut2DoubleExpected), "sutDouble should be sutDoubleExpected")
+            }
+        }
+        
     }
     
     func testToInt() {
