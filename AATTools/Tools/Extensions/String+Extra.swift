@@ -14,8 +14,9 @@
 
 import UIKit
 
-// MARK: Computed properties
 public extension String {
+    // MARK: Computed properties
+    
     /// Convenience property, Int for the number of characters of self
     public var length: Int {
         return self.characters.count

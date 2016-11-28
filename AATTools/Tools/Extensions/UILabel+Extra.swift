@@ -8,6 +8,11 @@
 
 import UIKit
 
+/**
+ * You can see this Extension working in LabelExtraViewController
+ * If you add/modify some method/property, please add a Working Example. @see LabelExtraViewController.swift
+ */
+
 public extension UILabel {
     
     /// Method to get estimated size
